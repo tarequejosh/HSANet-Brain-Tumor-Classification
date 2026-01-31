@@ -1,0 +1,80 @@
+\documentclass[11pt]{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\signature{Md. Assaduzzaman, PhD\\
+Associate Professor\\
+Department of Computer Science and Engineering\\
+Daffodil International University\\
+Dhaka 1341, Bangladesh\\
+Email: assaduzzaman.cse@diu.edu.bd}
+
+\address{Md. Assaduzzaman\\
+Department of Computer Science and Engineering\\
+Daffodil International University\\
+Daffodil Smart City, Ashulia\\
+Dhaka 1341, Bangladesh}
+
+\date{\today}
+
+\begin{document}
+
+\begin{letter}{Editor-in-Chief\\
+Computers in Biology and Medicine\\
+Elsevier}
+
+\opening{Dear Editor,}
+
+We are pleased to submit our original research article entitled \textbf{``HSANet: A Hybrid Scale-Attention Network with Evidential Deep Learning for Uncertainty-Aware Brain Tumor Classification''} for consideration in \textit{Computers in Biology and Medicine}.
+
+\textbf{Background and Motivation:}
+
+Brain tumor classification from MRI scans is a critical clinical task where diagnostic accuracy directly impacts treatment planning and patient outcomes. Despite significant advances in deep learning-based classification, existing methods suffer from two fundamental limitations: (1) inability to handle the substantial size variation among different tumor types, and (2) absence of principled uncertainty quantification that clinicians require for safe deployment.
+
+\textbf{Our Contributions:}
+
+We present HSANet (Hybrid Scale-Attention Network), a novel deep learning architecture that addresses these challenges through three key innovations:
+
+\begin{enumerate}
+\item \textbf{Adaptive Multi-Scale Module (AMSM):} Unlike fixed multi-scale approaches, AMSM dynamically weights parallel dilated convolutions based on input content, enabling effective feature extraction for tumors ranging from millimeter-scale pituitary adenomas to large glioblastomas.
+
+\item \textbf{Dual Attention Module (DAM):} Sequential channel-then-spatial attention emphasizes pathologically significant regions while suppressing irrelevant anatomical background.
+
+\item \textbf{Evidential Classification Head:} Based on Dirichlet distributions, this component provides principled uncertainty decomposition into aleatoric and epistemic components from a single forward pass---essential for clinical decision support.
+\end{enumerate}
+
+\textbf{Key Results:}
+
+\begin{itemize}
+\item \textbf{99.77\% accuracy} on 1,311 test samples (only 3 misclassifications)
+\item \textbf{0.9999 AUC-ROC} (macro-averaged) demonstrating near-perfect discriminative ability
+\item \textbf{0.019 ECE} indicating well-calibrated probability estimates
+\item \textbf{99.90\% accuracy} on external validation with 3,064 independent MRI scans
+\item \textbf{Significantly elevated uncertainty} for all misclassified cases ($p < 0.001$)
+\end{itemize}
+
+\textbf{Clinical Significance:}
+
+The external validation on an independent dataset from different institutions (Figshare dataset from Chinese hospitals) provides compelling evidence of cross-domain generalization---a critical requirement for clinical deployment. Importantly, all misclassified cases exhibited significantly higher epistemic uncertainty, confirming that the model appropriately flags uncertain predictions for expert review rather than producing overconfident errors.
+
+\textbf{Relevance to Computers in Biology and Medicine:}
+
+This work aligns directly with the journal's scope in computational approaches to medical diagnosis and clinical decision support. We combine architectural innovation in deep learning with rigorous clinical validation, addressing the pressing need for trustworthy AI systems in healthcare.
+
+\textbf{Declarations:}
+
+\begin{itemize}
+\item This manuscript has not been published elsewhere and is not under consideration by any other journal.
+\item All authors have read and approved the final manuscript.
+\item The authors declare no competing financial interests.
+\item Complete source code and pretrained models are publicly available at: \url{https://github.com/tarequejosh/HSANet-Brain-Tumor-Classification}
+\end{itemize}
+
+We believe this work represents a significant contribution to uncertainty-aware medical image classification and will be of substantial interest to the readership of \textit{Computers in Biology and Medicine}.
+
+Thank you for considering our submission. We look forward to your response.
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}

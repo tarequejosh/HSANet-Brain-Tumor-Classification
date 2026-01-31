@@ -1,0 +1,11 @@
+Highlights
+
+• Novel hybrid scale-attention architecture achieving 99.77% accuracy on brain tumor classification
+
+• Adaptive multi-scale module with learned input-dependent fusion weights for handling tumor size variation
+
+• Evidential deep learning framework providing calibrated uncertainty quantification from single forward pass
+
+• External validation on independent dataset (99.90% accuracy) demonstrating robust cross-domain generalization
+
+• Misclassified cases exhibit significantly elevated uncertainty, enabling reliable clinical decision support
