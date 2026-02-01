@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 FEB 2026 23:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 FEB 2026 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -535,12 +535,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/graphical_abstract.png, id=193, 246.6816pt x 246.6816pt>
+<figures/graphical_abstract.png, id=193, 997.5669pt x 640.5531pt>
 File: figures/graphical_abstract.png Graphic file (type png)
 <use figures/graphical_abstract.png>
 Package pdftex.def Info: figures/graphical_abstract.png  used on input line 58.
 
-(pdftex.def)             Requested size: 246.68098pt x 246.68098pt.
+(pdftex.def)             Requested size: 997.56447pt x 640.55153pt.
+
+Overfull \hbox (607.56447pt too wide) in paragraph at lines 57--59
+[] 
+ []
+
 
 Overfull \hbox (9.26776pt too wide) in paragraph at lines 64--65
 []\T1/cmr/m/n/12 Adaptive multi-scale mod-ule with learned input-dependent fu-s
@@ -574,10 +579,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./figures
-/graphical_abstract.png>]
+al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Overfull \vbox (92.05153pt too high) has occurred while \output is active []
 
-[2
+
+
+[2 <./figures/graphical_abstract.png>]
+
+[3
 
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
@@ -610,7 +619,13 @@ or safety-critical med-
 
 
 
-[3]
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 
+       [3]
 Overfull \hbox (3.46361pt too wide) in paragraph at lines 111--112
 []\T1/cmr/m/n/12 Comprehensive ex-per-i-ments on a chal-leng-ing four-class bra
 in tu-mor bench-
@@ -634,7 +649,7 @@ Overfull \hbox (45.76581pt too wide) in paragraph at lines 143--144
 . kaggle . com / datasets / masoudnickparvar /
  []
 
-<figures/sample_mri_images.png, id=318, 1006.7211pt x 518.4168pt>
+<figures/sample_mri_images.png, id=323, 1006.7211pt x 518.4168pt>
 File: figures/sample_mri_images.png Graphic file (type png)
 <use figures/sample_mri_images.png>
 Package pdftex.def Info: figures/sample_mri_images.png  used on input line 156.
@@ -650,7 +665,7 @@ Overfull \hbox (16.7687pt too wide) in paragraph at lines 197--198
 -bone based on EfficientNet-
  []
 
-<figures/architecture_diagram.png, id=342, 246.6816pt x 246.6816pt>
+<figures/architecture_diagram.png, id=346, 246.6816pt x 246.6816pt>
 File: figures/architecture_diagram.png Graphic file (type png)
 <use figures/architecture_diagram.png>
 Package pdftex.def Info: figures/architecture_diagram.png  used on input line 2
@@ -669,12 +684,12 @@ esid-ual preser-
 
 
 [11]
-<figures/amsm_module.png, id=373, 246.6816pt x 246.6816pt>
+<figures/amsm_module.png, id=377, 246.6816pt x 246.6816pt>
 File: figures/amsm_module.png Graphic file (type png)
 <use figures/amsm_module.png>
 Package pdftex.def Info: figures/amsm_module.png  used on input line 260.
 (pdftex.def)             Requested size: 187.19833pt x 187.20517pt.
-<figures/dam_module.png, id=374, 246.6816pt x 246.6816pt>
+<figures/dam_module.png, id=378, 246.6816pt x 246.6816pt>
 File: figures/dam_module.png Graphic file (type png)
 <use figures/dam_module.png>
 Package pdftex.def Info: figures/dam_module.png  used on input line 265.
@@ -713,12 +728,12 @@ Overfull \hbox (6.81285pt too wide) in paragraph at lines 458--459
 classes (Fig. []4[]a).
  []
 
-<figures/roc_curves.png, id=421, 722.7pt x 578.16pt>
+<figures/roc_curves.png, id=425, 722.7pt x 578.16pt>
 File: figures/roc_curves.png Graphic file (type png)
 <use figures/roc_curves.png>
 Package pdftex.def Info: figures/roc_curves.png  used on input line 466.
 (pdftex.def)             Requested size: 187.19833pt x 149.75343pt.
-<figures/confusion_matrix.png, id=422, 578.16pt x 433.62pt>
+<figures/confusion_matrix.png, id=426, 578.16pt x 433.62pt>
 File: figures/confusion_matrix.png Graphic file (type png)
 <use figures/confusion_matrix.png>
 Package pdftex.def Info: figures/confusion_matrix.png  used on input line 472.
@@ -745,13 +760,13 @@ rs on the sel-lar/suprasellar
 
 
 [17 <./figures/roc_curves.png> <./figures/confusion_matrix.png>]
-<figures/reliability_diagram.png, id=442, 867.24pt x 361.35pt>
+<figures/reliability_diagram.png, id=446, 867.24pt x 361.35pt>
 File: figures/reliability_diagram.png Graphic file (type png)
 <use figures/reliability_diagram.png>
 Package pdftex.def Info: figures/reliability_diagram.png  used on input line 53
 3.
 (pdftex.def)             Requested size: 175.49881pt x 73.12335pt.
-<figures/gradcam_grid.png, id=443, 1717.1352pt x 1182.819pt>
+<figures/gradcam_grid.png, id=447, 1717.1352pt x 1182.819pt>
 File: figures/gradcam_grid.png Graphic file (type png)
 <use figures/gradcam_grid.png>
 Package pdftex.def Info: figures/gradcam_grid.png  used on input line 539.
@@ -781,13 +796,13 @@ Overfull \hbox (85.41386pt too wide) in paragraph at lines 576--597
 
 
 [18 <./figures/reliability_diagram.png> <./figures/gradcam_grid.png>]
-<figures/fig1_accuracy_comparison.png, id=456, 860.7357pt x 426.393pt>
+<figures/fig1_accuracy_comparison.png, id=460, 860.7357pt x 426.393pt>
 File: figures/fig1_accuracy_comparison.png Graphic file (type png)
 <use figures/fig1_accuracy_comparison.png>
 Package pdftex.def Info: figures/fig1_accuracy_comparison.png  used on input li
 ne 611.
 (pdftex.def)             Requested size: 390.0pt x 193.19583pt.
-<figures/fig2_params_vs_accuracy.png, id=458, 715.7139pt x 498.9039pt>
+<figures/fig2_params_vs_accuracy.png, id=462, 715.7139pt x 498.9039pt>
 File: figures/fig2_params_vs_accuracy.png Graphic file (type png)
 <use figures/fig2_params_vs_accuracy.png>
 Package pdftex.def Info: figures/fig2_params_vs_accuracy.png  used on input lin
@@ -796,7 +811,7 @@ e 622.
 
 
 [19 <./figures/fig1_accuracy_comparison.png>]
-<figures/fig3_radar_comparison.png, id=466, 703.428pt x 593.8185pt>
+<figures/fig3_radar_comparison.png, id=470, 703.428pt x 593.8185pt>
 File: figures/fig3_radar_comparison.png Graphic file (type png)
 <use figures/fig3_radar_comparison.png>
 Package pdftex.def Info: figures/fig3_radar_comparison.png  used on input line 
@@ -805,7 +820,7 @@ Package pdftex.def Info: figures/fig3_radar_comparison.png  used on input line
 
 
 [20 <./figures/fig2_params_vs_accuracy.png>]
-<figures/fig4_training_curves.png, id=474, 1004.553pt x 354.6048pt>
+<figures/fig4_training_curves.png, id=478, 1004.553pt x 354.6048pt>
 File: figures/fig4_training_curves.png Graphic file (type png)
 <use figures/fig4_training_curves.png>
 Package pdftex.def Info: figures/fig4_training_curves.png  used on input line 6
@@ -814,24 +829,24 @@ Package pdftex.def Info: figures/fig4_training_curves.png  used on input line 6
 
 
 [21 <./figures/fig3_radar_comparison.png>]
-<figures/fig5_roc_curves.png, id=483, 1076.1003pt x 714.5094pt>
+<figures/fig5_roc_curves.png, id=487, 1076.1003pt x 714.5094pt>
 File: figures/fig5_roc_curves.png Graphic file (type png)
 <use figures/fig5_roc_curves.png>
 Package pdftex.def Info: figures/fig5_roc_curves.png  used on input line 670.
 (pdftex.def)             Requested size: 390.0pt x 258.94579pt.
-<figures/fig6_confusion_matrices.png, id=485, 1075.8594pt x 714.5094pt>
+<figures/fig6_confusion_matrices.png, id=489, 1075.8594pt x 714.5094pt>
 File: figures/fig6_confusion_matrices.png Graphic file (type png)
 <use figures/fig6_confusion_matrices.png>
 Package pdftex.def Info: figures/fig6_confusion_matrices.png  used on input lin
 e 681.
 (pdftex.def)             Requested size: 390.0pt x 259.0112pt.
-<figures/fig7_per_class_f1.png, id=487, 1005.2757pt x 499.6266pt>
+<figures/fig7_per_class_f1.png, id=491, 1005.2757pt x 499.6266pt>
 File: figures/fig7_per_class_f1.png Graphic file (type png)
 <use figures/fig7_per_class_f1.png>
 Package pdftex.def Info: figures/fig7_per_class_f1.png  used on input line 692.
 
 (pdftex.def)             Requested size: 390.0pt x 193.83202pt.
-<figures/fig8_computational_efficiency.png, id=489, 1003.1076pt x 426.8748pt>
+<figures/fig8_computational_efficiency.png, id=493, 1003.1076pt x 426.8748pt>
 File: figures/fig8_computational_efficiency.png Graphic file (type png)
 <use figures/fig8_computational_efficiency.png>
 Package pdftex.def Info: figures/fig8_computational_efficiency.png  used on inp
@@ -847,7 +862,7 @@ Overfull \hbox (73.36674pt too wide) in paragraph at lines 716--729
 [22 <./figures/fig4_training_curves.png>]
 
 [23 <./figures/fig5_roc_curves.png>]
-<figures/comprehensive_results.png, id=511, 850.1361pt x 603.9363pt>
+<figures/comprehensive_results.png, id=515, 850.1361pt x 603.9363pt>
 File: figures/comprehensive_results.png Graphic file (type png)
 <use figures/comprehensive_results.png>
 Package pdftex.def Info: figures/comprehensive_results.png  used on input line 
@@ -859,13 +874,13 @@ Overfull \hbox (12.82678pt too wide) in paragraph at lines 767--768
 M-RAM Bangladeshi
  []
 
-<figures/pmram_confusion_matrix.png, id=513, 722.7pt x 578.16pt>
+<figures/pmram_confusion_matrix.png, id=517, 722.7pt x 578.16pt>
 File: figures/pmram_confusion_matrix.png Graphic file (type png)
 <use figures/pmram_confusion_matrix.png>
 Package pdftex.def Info: figures/pmram_confusion_matrix.png  used on input line
  772.
 (pdftex.def)             Requested size: 187.19833pt x 149.75343pt.
-<figures/pmram_gradcam.png, id=514, 1110.0672pt x 853.2678pt>
+<figures/pmram_gradcam.png, id=518, 1110.0672pt x 853.2678pt>
 File: figures/pmram_gradcam.png Graphic file (type png)
 <use figures/pmram_gradcam.png>
 Package pdftex.def Info: figures/pmram_gradcam.png  used on input line 777.
@@ -983,10 +998,10 @@ nts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/font
 s/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/
 type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/ty
 pe1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (39 pages, 19895495 bytes).
+Output written on main.pdf (40 pages, 19795536 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
- 673 compressed objects within 7 object streams
+ 822 PDF objects out of 1000 (max. 8388607)
+ 675 compressed objects within 7 object streams
  206 named destinations out of 1000 (max. 500000)
  477 words of extra memory for PDF output out of 10000 (max. 10000000)
 
