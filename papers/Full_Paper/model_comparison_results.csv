@@ -1,0 +1,7 @@
+Model,Accuracy (%),F1-Score (%),Params (M),Inference (ms)
+ViT-B/16,99.77,99.75,85.8,6.5
+Swin-Tiny,99.85,99.84,27.5,3.3
+ResNet-50,99.08,99.02,23.5,2.5
+VGG-16,99.85,99.84,134.3,3.2
+EfficientNet-B3,99.54,99.52,10.7,2.5
+HSANet,99.77,99.75,15.6,12.0
