@@ -536,17 +536,18 @@ External validation on two independent datasets provided strong evidence of cros
 
 \begin{table}[!t]
 \centering
-\caption{Cross-dataset external validation results demonstrating geographic generalization.}
+\caption{Cross-dataset external validation results.}
 \label{tab:external}
-\begin{tabular}{llccccc}
+\small
+\begin{tabular}{llcccc}
 \toprule
-\textbf{Dataset} & \textbf{Region} & \textbf{Samples} & \textbf{Classes} & \textbf{Accuracy (\%)} & \textbf{F1 (\%)} & \textbf{$\kappa$} \\
+\textbf{Dataset} & \textbf{Region} & \textbf{N} & \textbf{Acc (\%)} & \textbf{F1 (\%)} & \textbf{$\kappa$} \\
 \midrule
-Kaggle (Train/Test) & Mixed & 1,311 & 4 & 99.77 & 99.75 & 0.997 \\
-Figshare & China & 3,064 & 3 & 99.90 & 99.88 & 0.998 \\
-PMRAM & Bangladesh & 1,505 & 4 & 99.47 & 99.46 & 0.993 \\
+Kaggle & Mixed & 1,311 & 99.77 & 99.75 & 0.997 \\
+Figshare & China & 3,064 & 99.90 & 99.88 & 0.998 \\
+PMRAM & Bangladesh & 1,505 & 99.47 & 99.46 & 0.993 \\
 \midrule
-\textbf{Combined External} & \textbf{Multi-country} & \textbf{4,569} & \textbf{---} & \textbf{99.76} & \textbf{99.74} & \textbf{0.996} \\
+\textbf{Combined} & \textbf{Multi-country} & \textbf{4,569} & \textbf{99.76} & \textbf{99.74} & \textbf{0.996} \\
 \bottomrule
 \end{tabular}
 \end{table}
